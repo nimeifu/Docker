@@ -207,3 +207,15 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Docker volumes - PostgreSQL and Kestra data
+ny_taxi_postgres_data/
+kestra_postgres_data/
+kestra_data/
+
+# Docker Compose override files
+docker-compose.override.yml
+
+# Temporary working directories
+/tmp/
